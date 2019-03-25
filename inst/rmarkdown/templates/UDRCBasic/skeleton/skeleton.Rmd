@@ -8,7 +8,7 @@ logo: udrcBlack.png  ## ANY IMAGE PRESENT IN THE WORKING DIRECTORY MAY BE PLACED
 output: 
   pdf_document:
     template: udrc.tex
-    
+    latex_engine: xelatex ## CHANGE LATEX ENGINE TO DEAL WITH MESSAGES FROM SOME R PACKAGES
 ---
 
 ```{r setup, include=FALSE, fig.align = 'center'}
