@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1553092982039.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3802834001",
+    "id" : "5D3DDF6",
+    "lastKnownWriteTime" : 1553537192,
+    "last_content_update" : 1553537192852,
+    "path" : "C:/Users/cstahle/Desktop/udrcR/inst/rmarkdown/templates/UDRCBasic/skeleton/skeleton.Rmd",
+    "project_path" : "inst/rmarkdown/templates/UDRCBasic/skeleton/skeleton.Rmd",
+    "properties" : {
+        "cursorPosition" : "49,0",
+        "scrollLine" : "40"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
