@@ -201,7 +201,7 @@ $endfor$
 \setlength{\parindent}{3em}
 
 % Bibliography Command
-\newcommand{\startbib}{\newpage\onecol
+\newcommand{\startbib}{\newpage
 \begin{center}References\end{center} 
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
@@ -213,13 +213,9 @@ $endfor$
 \newcommand{\makeappendix}{\newpage $appendixnumber$\centering\vspace{-0.5em}
 }
 
-% Smalltable
-\newcommand{\smalltable}{\begin{center}\small {$charttitle$} }
-\newcommand{\stopsmalltable}{\end{center}}
-
-% Largetable
-\newcommand{\largetable}{\begin{center}\onecol\small {$charttitle$} }
-\newcommand{\stoplargetable}{\twocol\end{center}}
+% Table
+\newcommand{\maketable}{\begin{center}\small {$charttitle$} }
+\newcommand{\stoptable}{\end{center}}
 
 % Set margins to 1 inch
 \usepackage[margin=1in]{geometry}
