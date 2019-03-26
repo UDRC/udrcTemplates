@@ -1,6 +1,6 @@
 Package: udrcTemplates
 Type: Package
-Title: Provides basic template for UDRC reports
+Title: Provides Utah Data Research Center report template
 Version: 1.0.0
 Author: Utah Data Research Center
 Maintainer: Utah Data Research Center <udrc@utah.gov>
@@ -8,3 +8,5 @@ Description: Converts R Markdown file into standardized format for UDRC reports.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Depends: tinytex
+Suggests: knitr, stargazer
