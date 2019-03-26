@@ -8,7 +8,7 @@ logo: udrcBlack.png  ## ANY IMAGE PRESENT IN THE WORKING DIRECTORY MAY BE PLACED
 output: 
   pdf_document:
     template: udrc.tex
-    latex_engine: xelatex ## CHANGE LATEX ENGINE TO DEAL WITH MESSAGES FROM SOME R PACKAGES
+    latex_engine: xelatex
 ---
 
 ```{r setup, include=FALSE, fig.align = 'center'}
@@ -19,7 +19,7 @@ library(stargazer) # USED TO OUTPUT TABLES
 <!-- THIS IS WHERE THE BODY OF THE ARTICLE STARTS -->
 
 ## Introduction
-\twocol <!-- Switch to two column mode... \onecol can be used to switch back to one column -->
+\twocol% <!-- Switch to two column mode... \onecol can be used to switch back to one column -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas maecenas. Massa tincidunt dui ut ornare lectus sit amet. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Amet luctus venenatis lectus magna. Commodo elit at imperdiet dui. Sed turpis tincidunt id aliquet risus. Consequat id porta nibh venenatis cras sed felis eget. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. At ultrices mi tempus imperdiet nulla. Nulla pellentesque dignissim enim sit amet venenatis urna. Risus pretium quam vulputate dignissim suspendisse in est ante in. Sit amet tellus cras adipiscing enim eu turpis egestas. Dui accumsan sit amet nulla facilisi. Semper auctor neque vitae tempus quam pellentesque. Orci a scelerisque purus semper. Sit amet dictum sit amet. Mattis vulputate enim nulla aliquet porttitor lacus luctus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Risus viverra adipiscing at in tellus integer.
 
 Tempor id eu nisl nunc mi ipsum. Ut lectus arcu bibendum at varius vel pharetra vel. Arcu vitae elementum curabitur vitae nunc sed. Ut diam quam nulla porttitor massa id neque. Arcu risus quis varius quam quisque id. Sit amet aliquam id diam maecenas ultricies mi eget. Non tellus orci ac auctor augue mauris augue neque gravida. Nec ullamcorper sit amet risus nullam. Gravida dictum fusce ut placerat orci nulla. Hendrerit dolor magna eget est lorem ipsum dolor. Eu consequat ac felis donec et odio pellentesque diam. Gravida dictum fusce ut placerat orci nulla. In hac habitasse platea dictumst quisque sagittis purus. Et pharetra pharetra massa massa. Et tortor at risus viverra adipiscing at in tellus integer. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Ipsum a arcu cursus vitae. Elementum sagittis vitae et leo duis ut diam quam nulla.
@@ -67,11 +67,9 @@ Non diam phasellus vestibulum lorem sed risus. Diam vulputate ut pharetra sit am
 <!-- BIBLIOGRAPHY -->
 \startbib
 
-Behn, Nicholas, Togher, Leanne, Power, Emma and Heard, Rob. ‘Evaluating communication training for paid careers of people with traumatic brain injury.’ Brain Injury, December 2012; 26(13–14): 1702–1715.
+Bureau of Labor Statistics "Employment Projects" Published Oct 24, 2017 BLS. Accessed online 02/11/2019 https://www.bls.gov/emp/tables/median-age-labor-force.htm
 
-Biggar, Paul, Nash, Nicholas, Williams, Kevin, and Gregg, David. 2008. ‘An experimental study of sorting and branch prediction.’ ACM Journal of Experimental Algorithmics. 12 (Jun. 2008), 1-39.
-
-Haahr, Mads. ‘Random Numbers,’ editor Neil J. Salkind, Encyclopedia of Measurements and Statistics, Sage Publications, 2006.
+Department of Workforce Services "CAREER AND TECHNICAL EDUCATION IN UTAH" DWS. Published October 2016 https://jobs.utah.gov/wi/pubs/reports/cteutah.pdf
 
 <!-- APPENDIX SECTION. CAN CREATE MULTIPLE BY CALLING \makeappendix{APPENDIXNAME} -->
 \makeappendix{Appendix A}
