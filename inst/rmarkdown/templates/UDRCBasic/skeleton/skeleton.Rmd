@@ -57,7 +57,8 @@ Tristique senectus et netus et malesuada fames ac. Enim diam vulputate ut pharet
 ``` {r, echo=FALSE, fig.align = "center", warning = FALSE}
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy)) +
-  ggtitle("Graph Example")
+  ggtitle("Graph Example") +
+  theme_udrc()
 ```
 
 Non diam phasellus vestibulum lorem sed risus. Diam vulputate ut pharetra sit amet aliquam. Pulvinar proin gravida hendrerit lectus. Tristique senectus et netus et malesuada. Iaculis eu non diam phasellus vestibulum lorem. Aliquet bibendum enim facilisis gravida neque convallis. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Amet mauris commodo quis imperdiet massa tincidunt nunc. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Accumsan sit amet nulla facilisi morbi tempus iaculis urna.
@@ -70,7 +71,7 @@ Bureau of Labor Statistics "Employment Projects" Published Oct 24, 2017 BLS. Acc
 Department of Workforce Services "CAREER AND TECHNICAL EDUCATION IN UTAH" DWS. Published October 2016 https://jobs.utah.gov/wi/pubs/reports/cteutah.pdf
 
 <!-- APPENDIX SECTION. CAN CREATE MULTIPLE BY CALLING \makeappendix{APPENDIXNAME} -->
-\makeappendix{Clowns}
+\makeappendix{Appendix A}
 
 Non diam phasellus vestibulum lorem sed risus. Diam vulputate ut pharetra sit amet aliquam. Pulvinar proin gravida hendrerit lectus. Tristique senectus et netus et malesuada. Iaculis eu non diam phasellus vestibulum lorem. Aliquet bibendum enim facilisis gravida neque convallis. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Amet mauris commodo quis imperdiet massa tincidunt nunc. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Non diam phasellus vestibulum lorem sed risus. Diam vulputate ut pharetra sit amet aliquam. Pulvinar proin gravida hendrerit lectus. Tristique senectus et netus et malesuada. Iaculis eu non diam phasellus vestibulum lorem. Aliquet bibendum enim facilisis gravida neque convallis. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Amet mauris commodo quis imperdiet massa tincidunt nunc. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Accumsan sit amet nulla facilisi morbi tempus iaculis urna.
 
