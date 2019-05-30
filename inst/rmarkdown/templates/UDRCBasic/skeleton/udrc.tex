@@ -210,15 +210,31 @@ $endfor$
 }
 
 % Appendix Command
-\newcommand{\makeappendix}{\newpage $appendixnumber$\centering\vspace{-0.5em}
+\newcommand{\makeappendix}{\newpage
+\centering\paragraph{$appendixName$}
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
 }
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
 
 % Table
 \newcommand{\maketable}{\begin{center}\small {$charttitle$} }
 \newcommand{\stoptable}{\end{center}}
 
-% Set margins to 1 inch
-\usepackage[margin=1in]{geometry}
+% Caption Equations
+\newcommand{\labeleq}{
+\begin{center} \footnotesize {$caption$}
+\end{center}
+}
+
+% Package for indenting first paragraph
+\usepackage{indentfirst}
+
+% Set margins
+\usepackage[margin=1.75in]{geometry}
 
 % Adjust vertical alignment of the title page
 \usepackage{titling}
@@ -280,10 +296,10 @@ $if(lof)$
 $endif$
 
 
-\begin{center}
-\Large
-$title$
-\end{center}
+%\begin{center}
+%\Large
+%$title$
+%\end{center}
 $body$
 
 $if(natbib)$
