@@ -1,5 +1,5 @@
 \name{scale_fill_udrc}
-\alias{color_scale}
+\alias{scale_fill_udrc}
 \title{UDRC pallete for fill aesthetic}
 \usage{
 scale_fill_udrc()

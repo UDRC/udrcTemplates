@@ -1,4 +1,5 @@
 \name{makeappendix}
+\alias{\preformatted{\makeappendix}}
 \title{
 Marks the beginning of an appendix
 }

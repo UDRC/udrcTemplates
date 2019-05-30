@@ -1,4 +1,5 @@
 \name{startbib}
+\alias{\preformatted{\startbib}}
 \title{
 Marks the beginning of the bibliography section
 }
@@ -14,4 +15,6 @@ Citation 3
     .
     .
 }
+
+
 
